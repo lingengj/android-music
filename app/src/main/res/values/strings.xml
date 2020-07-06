@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Wyy  Music</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ice_sucker">&#xe61d;</string>
+    <string name="children">&#xe84e;</string>
+    <string name="earphone">&#xe674;</string>
+    <string name="play">&#xe612;</string>
+    <string name="game">&#xe695;</string>
+    <string name="cart">&#xe66b;</string>
+    <string name="transceiver">&#xe65b;</string>
+    <string name="song_sheet">&#xe66a;</string>
+    <string name="night_mode">&#xe630;</string>
+    <string name="run">&#xe61c;</string>
+    <string name="set_up">&#xe634;</string>
+    <string name="calendar">&#xe669;</string>
+    <string name="my">&#xe617;</string>
+    <string name="moon">&#xe6b8;</string>
+    <string name="radio">&#xe76a;</string>
+    <string name="microphone">&#xe74b;</string>
+    <string name="bell">&#xe70a;</string>
+    <string name="ranking">&#xe613;</string>
+    <string name="timer">&#xe75e;</string>
+    <string name="order">&#xe668;</string>
+    <string name="alarm_clock">&#xe614;</string>
+    <string name="download">&#xe61a;</string>
+    <string name="collect">&#xe66e;</string>
+    <string name="show">&#xe645;</string>
+    <string name="three_lines">&#xe667;</string>
+    <string name="letter">&#xe61b;</string>
+    <string name="clothes">&#xe666;</string>
+    <string name="car">&#xe62a;</string>
+    <string name="search">&#xe615;</string>
+    <string name="cloud">&#xe692;</string>
+    <string name="scan">&#xe60e;</string>
+    <string name="exit">&#xe64f;</string>
+    <string name="nearby">&#xe646;</string>
+    <string name="musical_note">&#xe63e;</string>
+    <string name="live_broadcast">&#xe605;</string>
+    <string name="heart">&#xe602;</string>
+    <string name="arrow">&#xe611;</string>
+    <string name="random">&#xe603;</string>
+    <string name="list_loop">&#xe609;</string>
+    <string name="loop">&#xe608;</string>
+    <string name="musicPlay">&#xe607;</string>
+    <string name="musicPause">&#xe606;</string>
+    <string name="next">&#xe7a5;</string>
+    <string name="pre">&#xe78a;</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.apple.wyymusic.icon.FontIconView
+        android:id="@+id/img_tab"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="2dip"
+        android:textAlignment="center"
+        android:paddingTop="9dp"
+        android:background="@drawable/red_circle"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/model_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:text="首页"
+        android:textColor="@color/gray"
+        android:textSize="12sp" />
+</LinearLayout>

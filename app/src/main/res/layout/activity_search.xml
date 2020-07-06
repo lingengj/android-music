@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.apple.wyymusic.search">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <com.example.apple.wyymusic.icon.FontIconView
+            android:layout_marginTop="5dp"
+            android:onClick="exit"
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/lightBlack"
+            android:text="@string/arrow"
+            android:layout_marginRight="15dp" />
+        <EditText
+            android:id="@+id/edtSongName"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <com.example.apple.wyymusic.icon.FontIconView
+            android:layout_marginTop="3dp"
+            android:onClick="search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:textColor="@color/lightBlack"
+            android:text="@string/search"
+            android:layout_marginLeft="15dp"
+            ></com.example.apple.wyymusic.icon.FontIconView>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGray"/>
+    <ListView
+        android:id="@+id/lvSongSheet"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

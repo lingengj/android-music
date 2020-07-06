@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.apple.wyymusic.fragment.MeFragment"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/me_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        app:tabBackground="@color/white"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="scrollable"
+        app:tabMinWidth="40dip"
+        app:tabPaddingStart="18dp"
+        app:tabPaddingEnd="18dp"
+        app:tabTextColor="@color/gray"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGray"/>
+    <ListView
+        android:id="@+id/lvMe"
+        android:dividerHeight="0.5dp"
+        android:divider="@drawable/lv_divider"
+        android:layout_width="match_parent"
+        android:layout_height="252dp">
+    </ListView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/lightGray"/>
+
+</LinearLayout>
